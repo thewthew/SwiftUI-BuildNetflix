@@ -17,6 +17,7 @@
 		C93C3497273E65B60013502E /* StandardHomeMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93C3496273E65B60013502E /* StandardHomeMovie.swift */; };
 		C93C3499273E65EB0013502E /* GlobalHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93C3498273E65EB0013502E /* GlobalHelpers.swift */; };
 		C93C349B273E67480013502E /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93C349A273E67480013502E /* HomeVM.swift */; };
+		C95E62D0273FBE8600C799E9 /* TopMoviePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95E62CF273FBE8600C799E9 /* TopMoviePreview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		C93C3496273E65B60013502E /* StandardHomeMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardHomeMovie.swift; sourceTree = "<group>"; };
 		C93C3498273E65EB0013502E /* GlobalHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalHelpers.swift; sourceTree = "<group>"; };
 		C93C349A273E67480013502E /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
+		C95E62CF273FBE8600C799E9 /* TopMoviePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoviePreview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				C93C348D273E5F7F0013502E /* HomeView.swift */,
+				C95E62CF273FBE8600C799E9 /* TopMoviePreview.swift */,
 				C93C349A273E67480013502E /* HomeVM.swift */,
 				C93C347B273E5EEB0013502E /* BuildNetflixApp.swift */,
 				C93C3492273E65560013502E /* Movie.swift */,
@@ -174,6 +177,7 @@
 				C93C349B273E67480013502E /* HomeVM.swift in Sources */,
 				C93C347E273E5EEB0013502E /* ContentView.swift in Sources */,
 				C93C3497273E65B60013502E /* StandardHomeMovie.swift in Sources */,
+				C95E62D0273FBE8600C799E9 /* TopMoviePreview.swift in Sources */,
 				C93C3493273E65560013502E /* Movie.swift in Sources */,
 				C93C347C273E5EEB0013502E /* BuildNetflixApp.swift in Sources */,
 			);
