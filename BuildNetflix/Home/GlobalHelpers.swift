@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 let exampleMovie1 = Movie(id: UUID().uuidString, name: "DARK", thumbnailURL: URL(string: "https://picsum.photos/200/300")!, categories: ["Dystopian", "Exciting", "Suspenful", "Sci-fi TV"])
 let exampleMovie2 = Movie(id: UUID().uuidString, name: "Travelers", thumbnailURL: URL(string: "https://picsum.photos/200/301")!, categories: ["Dystopian", "Exciting", "Suspenful", "Sci-fi TV"])
@@ -20,3 +21,9 @@ let exampleMovies: [Movie] = [exampleMovie1,
                               exampleMovie4,
                               exampleMovie5,
                               exampleMovie6 ]
+
+extension LinearGradient {
+    static let blackOpacityGradient = LinearGradient(gradient: Gradient(colors: [Color.black.opacity(0.0), Color.black.opacity(0.95)]),
+                                                     startPoint: .top,
+                                                     endPoint: .bottom)
+}

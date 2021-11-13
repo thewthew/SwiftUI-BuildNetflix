@@ -70,7 +70,13 @@ struct TopMoviePreview: View {
                     Spacer()
                 }
             }
-        }.foregroundColor(.white)
+            .background(
+                LinearGradient.blackOpacityGradient
+                    .padding(.top, 250)
+            )
+            
+        }
+        .foregroundColor(.white)
     }
 }
 
